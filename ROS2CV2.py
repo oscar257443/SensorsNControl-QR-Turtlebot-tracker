@@ -20,7 +20,7 @@ def image_callback(msg):
         print(e)
 
 # Subscribe to the ROS image topic
-rospy.Subscriber("/camera/raw", Image, image_callback)
+rospy.Subscriber("/camera/rgb/image_raw", Image, image_callback)
 
 # Spin to keep the script running
 rospy.spin()
