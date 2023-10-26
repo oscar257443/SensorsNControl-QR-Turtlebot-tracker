@@ -44,7 +44,7 @@ Furthermore, several `<model>` elements define the properties and attributes of 
 
 Finally, the `<state>` element describes the state of the world, including simulation time and information about various models, lights, and cameras. The `<gui>` element defines GUI settings, including camera properties and projection type, for the simulation.
 
-In summary, launch files and world files play crucial roles in configuring and defining both the robot and the simulation environment in ROS and Gazebo, respectively. These elements are essential for setting up and launching complex robotic simulations.
+In summary, launch files and world files play crucial roles in configuring and defining both the robot and the simulation environment in ROS and Gazebo. These elements are essential for setting up and launching our simulations.
 
 ### Slam and Path Planning
 Simultaneous Localisation and Mapping (SLAM) is a fundamental technique in robotics that involves the real-time mapping of an environment while simultaneously tracking the robot's position within that environment. In the context of this project, SLAM is crucial as it allows the Turtlebot, to create a map of its surroundings using the sensor data from the square's corners. The robot can use this map to understand its location in the coordinate frame and navigate effectively. Accurate SLAM ensures that the robot can follow a straight line perpendicular to the square with precision, even in the presence of observation noise. Without SLAM, the robot would struggle to make sense of its environment, and following a precise path would be challenging.
